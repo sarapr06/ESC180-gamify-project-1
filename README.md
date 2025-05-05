@@ -1,6 +1,7 @@
 # ESC180-gamify-project-1
 Gamifying points for a student, as per assignment 1 in ESC180 Course, taught by Michael Guerzhoy.
 
+# Assignment description
 Gamification is the integration of elements found in games – such as points and badges – into nongame activities. One example of gamification is students’ being awarded badges and points for completing exercises in online courses. This is done in order to encourage students to complete the exercises. Another example is supermarkets awarding points to customers for purchasing various items. This is done, in part, to induce the customers to purchase more items in order to gain more points.
 In this project, you will implement a simulator for an app that encourages the user to exercise more by awarding “stars” to the user for exercising. The simulator will model how the user behaves, and could be used to try out various strategies for awarding stars.
 We imagine the user as accumulating “health points” and “fun points” (sometimes called hedons). Every activity is associated with gaining some number of health points and some number of hedons. Receiving a star increases the number of hedons that the user gains from performing the activity. Receiving too many stars too often makes the user lose interest in stars altogether. The simulation proceeds as a series of operations, which are simulated using calls to the functions that you will define.
